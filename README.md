@@ -1,10 +1,10 @@
 # Creating Kafka Topic
 ```
-$ docker exec -it <nome da image do kafka no Docker> /bin/bash
+$ docker exec -it <kafka image name> /bin/bash
 ```
 ```
 $ cd opt/kafka/bin
 ```
 ```
-$ ./kafka-topics.sh --bootstrap-server kafka:9092 --create --topic <nome do tópico> --partitions 1 --replication-factor 1
+$ ./kafka-topics.sh --bootstrap-server kafka:9092 --create --topic <topic name> --partitions 1 --replication-factor 1
 ```
