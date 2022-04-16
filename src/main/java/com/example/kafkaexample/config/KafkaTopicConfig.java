@@ -9,7 +9,7 @@ import org.springframework.kafka.config.TopicBuilder;
 public class KafkaTopicConfig {
 
     @Bean
-    public NewTopic amigosCodeTopic(){
-        return TopicBuilder.name("amigosCode").build();
+    public NewTopic testingTopic(){
+        return TopicBuilder.name("testingTopic").build();
     }
 }
